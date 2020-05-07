@@ -17,7 +17,7 @@
 ;
 
 (ns com.capitalone.commander
-  (:require [clojure.spec :as s]))
+  (:require [clojure.spec.alpha :as s]))
 
 (s/def ::action keyword?)
 (s/def ::data (s/keys))

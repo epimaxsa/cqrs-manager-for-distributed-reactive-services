@@ -21,7 +21,7 @@
             [clojure.pprint :refer [pprint]]
             [clojure.tools.namespace.repl :refer [refresh set-refresh-dirs]]
             [clojure.java.io :as io]
-            [clojure.spec.test :as stest]
+            [clojure.spec.test.alpha :as stest]
             [com.stuartsierra.component :as component]
             [eftest.runner :as eftest]
             [meta-merge.core :refer [meta-merge]]

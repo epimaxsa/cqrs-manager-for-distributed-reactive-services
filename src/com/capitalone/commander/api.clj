@@ -17,7 +17,7 @@
 ;
 
 (ns com.capitalone.commander.api
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [clojure.core.async :as a]
             [com.stuartsierra.component :as c]
             [io.pedestal.log :as log]

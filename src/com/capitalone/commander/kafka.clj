@@ -20,7 +20,7 @@
   (:refer-clojure :exclude [partition])
   (:require [clojure.core.async :as a]
             [clojure.core.async.impl.protocols :as p]
-            [clojure.spec :as s]
+            [clojure.spec.alpha :as s]
             [clojure.data.fressian :as fressian]
             [com.stuartsierra.component :as c]
             [io.pedestal.log :as log]
