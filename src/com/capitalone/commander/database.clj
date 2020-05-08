@@ -19,7 +19,7 @@
 (ns com.capitalone.commander.database
   (:gen-class)
   (:require [clojure.string :as string]
-            [clojure.spec :as s]
+            [clojure.spec.alpha :as s]
             [clojure.data.fressian :as fressian]
             [clojure.java.jdbc :as j]
             ragtime.jdbc

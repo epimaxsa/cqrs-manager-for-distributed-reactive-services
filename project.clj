@@ -17,14 +17,15 @@
 ;
 
 (defproject com.capitalone/cmdr "0.3.0-alpha"
-  :min-lein-version "2.0.0"
+  :min-lein-version "2.8.1"
   :description "Command handler in REST+CQRS+ES architecture."
   :url         "http://capitalone.com/"
   :scm         {:url "https://github.com/capitalone/cqrs-manager-for-distributed-reactive-services"}
   :license     {"License Name" "Apache License, Version 2.0"}
   :dependencies [ ;; Base
-                 [org.clojure/clojure "1.9.0-alpha12"]
-                 [org.clojure/core.async "0.2.385"]
+                 [org.clojure/clojure "1.10.1"]
+                 [org.clojure/core.rrb-vector "0.0.13"]
+                 [org.clojure/core.async "1.1.587"]
                  [com.stuartsierra/component "0.3.1"]
                  [prismatic/schema "1.1.3"]
                  [meta-merge "1.0.0"]
@@ -40,10 +41,10 @@
                  [hiccup "1.0.5"]
 
                  ;; gRPC
-                 [com.google.protobuf/protobuf-java "3.0.2"]
-                 [io.grpc/grpc-netty "1.0.0"]
-                 [io.grpc/grpc-protobuf "1.0.0"]
-                 [io.grpc/grpc-stub "1.0.0"]
+                 [com.google.protobuf/protobuf-java "3.11.4"]
+                 [io.grpc/grpc-netty "1.29.0"]
+                 [io.grpc/grpc-protobuf "1.29.0"]
+                 [io.grpc/grpc-stub "1.29.0"]
 
                  ;; Database
                  [org.clojure/java.jdbc "0.6.2-alpha3"]
